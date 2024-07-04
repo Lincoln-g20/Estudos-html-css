@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body
+{
+
+   background-color:  #ABAFB1 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{   
+    border-radius: 5px;
+    padding: 5px 0px;
+    background-color: #6a6b6d9d;
+    background-color:white ;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.225);
+    border: 1px solid;
+}
+h1#noticias
+{
+    margin: 0px;
+   
+}
+h1
+{   
+    text-align: center;
+    padding-left: 10px;
+    margin: 20px 1px 2px 1px;
+    background-color: #D5D9DB;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.225);
+}
+nav
+{   
+    margin: 20px 1px 2px 1px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background-color: #D5D9DB;
+    color: black;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.225);
+}
+nav> a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav >a:hover
+{
+    color: white;
+    
+
+}
+
+
+nav>a:active
+{
+    color: black;
+    text-decoration: underline;
+}
+
+main
+{
+    background-color:white ;
+    text-align: justify;
+    padding: 5px;
+    margin: 10px;
+    
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.225);
+}
+
+section> p
+{
+    padding-right: 5px;
+}
+
+footer
+{
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+
+footer>p
+{
+    margin: 0px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.225);
+}
+
+

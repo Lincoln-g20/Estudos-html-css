@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        h1
+        {
+            box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.433);
+            padding-left: 2px;
+        }
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+            
+
+        }
+        header
+        {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 15px 9px 0px rgba(0, 0, 0, 0.441);
+
+
+        }
+        main
+        {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+            border-radius:10px 0px;
+            box-shadow: 5px 15px 9px 0px rgba(0, 0, 0, 0.441);            
+        }
+        article
+        {
+            background-color: lightgray;
+            padding: 5px;
+            
+
+        }
+        nav
+        {
+            background-color: gray;
+            padding: 3px;
+            border: 1px solid;
+            box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.499);
+            
+        }
+        nav > a
+        {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+            
+        }
+        nav > a:hover
+        {
+           text-decoration: underline;
+           color: black; 
+        }
+        nav > a:active
+        {
+            color: whitesmoke;
+        }
+        
+        article > aside
+        {
+            background-color: rgba(211, 211, 211, 0.551);
+            
+        }
+        footer
+        {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+        }
+        footer > p
+        {
+            margin: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex soluta numquam esse illum, alias dolor assumenda omnis libero repellendus voluptates? Similique animi magnam, quasi dolores ea tempora corrupti voluptatum autem.</p>
+                <aside>
+                    Artigo escrito por José da silva
+                </aside>
+            </article>
+        </section>
+        <section id="Notícias">
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por André Lincoln</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
